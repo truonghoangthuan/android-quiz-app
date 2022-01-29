@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1013471544538",
+    "project_id": "android-quiz-app-6f654",
+    "storage_bucket": "android-quiz-app-6f654.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013471544538:android:69a6ff813c6a0eada791e3",
+        "android_client_info": {
+          "package_name": "com.thuan.quizapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1013471544538-mllo6h18j7ugbmim0jdi85hamjr2rknb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA74OtlF4ApZcyia_3vBiQ6KotmYwI-q6Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1013471544538-mllo6h18j7ugbmim0jdi85hamjr2rknb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

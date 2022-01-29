@@ -1,4 +1,4 @@
-package com.example.quizapp;
+package com.thuan.quizapp;
 
 import org.junit.Test;
 
