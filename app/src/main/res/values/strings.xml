@@ -1,9 +1,13 @@
 <resources>
     <string name="app_name">Quiz App</string>
     <string name="person_icon">person_icon</string>
-    <string name="createdUser">Already have an account?</string>
+    <string name="createdUserWelcomeText">Already have an account?</string>
+    <string name="registerUserWelcomeText">Create a new account</string>
     <string name="email">Email</string>
+    <string name="username">Username</string>
     <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
     <string name="password">Password</string>
     <string name="registerUser">Click here to create an account!</string>
+    <string name="createdUser">Already have an account?</string>
 </resources>
