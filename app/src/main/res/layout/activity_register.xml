@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="44dp"
-        android:text="@string/createdUserWelcomeText"
+        android:text="@string/registerUserWelcomeText"
         android:textColor="@color/white"
         android:textSize="34sp"
         android:textStyle="bold"
@@ -53,11 +53,32 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/inputEmail"
+        android:id="@+id/inputNewUsername"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:autofillHints="email"
+        android:background="@drawable/round_border"
+        android:drawableStart="@drawable/ic_person_blue_24"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:hint="@string/username"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/waveSvg"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/inputNewEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
         android:autofillHints="email"
         android:background="@drawable/round_border"
@@ -65,17 +86,17 @@
         android:drawablePadding="16dp"
         android:ems="10"
         android:hint="@string/email"
-        android:hintTextColor="#1976D2"
         android:inputType="text"
         android:minHeight="48dp"
         android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/waveSvg"
+        app:layout_constraintTop_toBottomOf="@+id/inputNewUsername"
         tools:ignore="TextContrastCheck" />
 
     <EditText
-        android:id="@+id/inputPassword"
+        android:id="@+id/inputNewPassword"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -87,43 +108,42 @@
         android:drawablePadding="16dp"
         android:ems="10"
         android:hint="@string/password"
-        android:hintTextColor="#1976D2"
         android:inputType="textPassword"
         android:minHeight="48dp"
         android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inputEmail"
+        app:layout_constraintTop_toBottomOf="@+id/inputNewEmail"
         tools:ignore="TextContrastCheck" />
 
     <Button
-        android:id="@+id/buttonLogin"
+        android:id="@+id/buttonRegister"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
         android:background="@drawable/round_button"
-        android:text="@string/login"
+        android:text="@string/register"
         android:textColor="@color/white"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inputPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/inputNewPassword" />
 
     <TextView
-        android:id="@+id/register"
+        android:id="@+id/loginLink"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
-        android:text="@string/registerUser"
+        android:text="@string/createdUser"
         android:textColor="@color/blue_500"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonLogin" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonRegister" />
 </androidx.constraintlayout.widget.ConstraintLayout>
