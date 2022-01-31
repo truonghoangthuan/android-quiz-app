@@ -20,7 +20,7 @@ import com.thuan.quizapp.model.User;
 
 public class MainActivity extends AppCompatActivity {
     // For login.
-    EditText inputEmail, inputPassword;
+    EditText inputUsername, inputPassword;
 
     Button buttonLogin;
 
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         database = FirebaseDatabase.getInstance();
         users = database.getReference("Users");
 
-        inputEmail = findViewById(R.id.inputEmail);
+        inputUsername = findViewById(R.id.inputEmail);
         inputPassword = findViewById(R.id.inputPassword);
 
         buttonLogin = findViewById(R.id.buttonLogin);
@@ -52,15 +52,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void buttonLoginOnClick(View view) {
-        String email = inputEmail.getText().toString();
+        String username = inputUsername.getText().toString();
         String password = inputPassword.getText().toString();
 
         users.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                if (snapshot.child(email).exists()) {
+                if (snapshot.child(username).exists()) {
                     if (!password.isEmpty()) {
-                        User user = snapshot.child(email).getValue(User.class);
+                        User user = snapshot.child(username).getValue(User.class);
                         assert user != null;
                         if (user.getPassword().equals(password)) {
                             Toast.makeText(MainActivity.this, "Login successfully!", Toast.LENGTH_SHORT).show();
