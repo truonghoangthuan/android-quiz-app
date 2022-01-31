@@ -102,6 +102,7 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
         android:background="@drawable/round_button"
+        android:onClick="buttonLoginOnClick"
         android:text="@string/login"
         android:textColor="@color/white"
         android:textSize="16sp"
