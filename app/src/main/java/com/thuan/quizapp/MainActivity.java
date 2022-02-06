@@ -64,6 +64,8 @@ public class MainActivity extends AppCompatActivity {
                         assert user != null;
                         if (user.getPassword().equals(password)) {
                             Toast.makeText(MainActivity.this, "Login successfully!", Toast.LENGTH_SHORT).show();
+                            Intent intent = new Intent(MainActivity.this, HomeActivity.class);
+                            startActivity(intent);
                         } else {
                             Toast.makeText(MainActivity.this, "Wrong password!", Toast.LENGTH_SHORT).show();
                         }
