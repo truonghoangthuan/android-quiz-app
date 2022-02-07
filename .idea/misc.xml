@@ -3,24 +3,32 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/android-quiz-app/app/src/main/res/drawable/ic_baseline_category_24.xml" value="0.359" />
+        <entry key="..\:/android-quiz-app/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.359" />
         <entry key="..\:/android-quiz-app/app/src/main/res/drawable/ic_email_24.xml" value="0.38177083333333334" />
         <entry key="..\:/android-quiz-app/app/src/main/res/drawable/ic_lock_24.xml" value="0.38177083333333334" />
         <entry key="..\:/android-quiz-app/app/src/main/res/drawable/ic_person.xml" value="0.359" />
         <entry key="..\:/android-quiz-app/app/src/main/res/drawable/ic_person_blue_24.xml" value="0.359" />
         <entry key="..\:/android-quiz-app/app/src/main/res/drawable/ic_wave.xml" value="0.38177083333333334" />
         <entry key="..\:/android-quiz-app/app/src/main/res/drawable/logo_quiz_100.xml" value="0.359" />
+        <entry key="..\:/android-quiz-app/app/src/main/res/drawable/nav_item_color_state.xml" value="0.359" />
         <entry key="..\:/android-quiz-app/app/src/main/res/drawable/round_border.xml" value="0.38177083333333334" />
         <entry key="..\:/android-quiz-app/app/src/main/res/drawable/round_button.xml" value="0.38177083333333334" />
         <entry key="..\:/android-quiz-app/app/src/main/res/drawable/white_cell_background.xml" value="0.359" />
+        <entry key="..\:/android-quiz-app/app/src/main/res/layout/activity_bottom_nav.xml" value="0.365625" />
         <entry key="..\:/android-quiz-app/app/src/main/res/layout/activity_home.xml" value="0.365625" />
         <entry key="..\:/android-quiz-app/app/src/main/res/layout/activity_home_screen.xml" value="0.365625" />
         <entry key="..\:/android-quiz-app/app/src/main/res/layout/activity_main.xml" value="0.3515625" />
         <entry key="..\:/android-quiz-app/app/src/main/res/layout/activity_register.xml" value="0.365625" />
         <entry key="..\:/android-quiz-app/app/src/main/res/layout/content_home_screen.xml" value="0.365625" />
+        <entry key="..\:/android-quiz-app/app/src/main/res/layout/fragment_dashboard.xml" value="0.365625" />
         <entry key="..\:/android-quiz-app/app/src/main/res/layout/fragment_first.xml" value="0.365625" />
+        <entry key="..\:/android-quiz-app/app/src/main/res/layout/fragment_home.xml" value="0.365625" />
+        <entry key="..\:/android-quiz-app/app/src/main/res/layout/fragment_notifications.xml" value="0.365625" />
         <entry key="..\:/android-quiz-app/app/src/main/res/layout/fragment_second.xml" value="0.365625" />
         <entry key="..\:/android-quiz-app/app/src/main/res/layout/login_layout.xml" value="0.365625" />
         <entry key="..\:/android-quiz-app/app/src/main/res/layout/register_layout.xml" value="0.365625" />
+        <entry key="..\:/android-quiz-app/app/src/main/res/menu/bottom_nav_menu.xml" value="0.365625" />
       </map>
     </option>
   </component>
