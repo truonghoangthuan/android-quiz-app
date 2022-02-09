@@ -27,4 +27,6 @@
     <string name="title_notifications">Notifications</string>
     <string name="nav_item_category">Category</string>
     <string name="nav_item_ranking">Ranking</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment1">Hello blank fragment1</string>
 </resources>
